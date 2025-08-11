@@ -145,6 +145,7 @@ nav a:hover{
 .intereses li{
     max-width: 100%;
     padding: 10px;
+    
 }
 .contacto{
     border: 1px solid var(--secondary-color);
@@ -341,5 +342,36 @@ nav a:hover{
     #contacto ul {
         display: flex;
         flex-direction: column;  
-    }
+    } 
+}
+.cookie-popup{
+position: fixed;
+bottom: 20px;
+left: 20px;
+right: 20px;
+background-color: var(--primary-color);
+color: black;
+border: 2px solid var(--secondary-color);
+border-radius: var(--border-radius);
+display: none;
+justify-content: space-between;
+align-items: center;
+max-width: 500px;
+margin: auto;
+z-index: 1000;
+}
+.cookie-popup.show{
+    display: flex;
+}
+.cookie-popup button{
+    background-color: var(--complementary-color) ;
+    color: #fff;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cookie-popup a{
+    color: black;
+    text-decoration: underline;
 }
