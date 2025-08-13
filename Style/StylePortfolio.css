@@ -382,10 +382,11 @@ nav a:hover{
     #contacto {
         display: flex;
         flex-direction: column;
+        padding: 5px;
     }
     #contacto ul {
         display: flex;
-        flex-direction: column;  
+        flex-wrap: wrap;  
     } 
 }
 .cookie-popup{
